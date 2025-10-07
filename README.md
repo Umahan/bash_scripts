@@ -21,7 +21,6 @@
    sudo cp monitor_test.sh /usr/local/bin/monitor_test.sh
    sudo chmod 755 /usr/local/bin/monitor_test.sh
 2) Создаем unit и timer в /etc/systemd/system/monitor_test.service и /etc/systemd/system/monitor_test.timer
-    
 3) Перезагружаем демон systemd и включаем таймер:
    sudo systemctl daemon-reload
    sudo systemctl enable --now monitor_test.timer
