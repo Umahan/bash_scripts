@@ -28,7 +28,7 @@ The project provides an intelligent monitoring system that:
 - 🔒 Runs without root privileges under a dedicated system user
 
 ## 🛡️ Security as a Priority
-- Special attention is given to security:
+Special attention is given to security:
 - Dedicated monitor user with minimal privileges
 - No root privileges required for the script
 - Protected logs with access control
@@ -36,12 +36,45 @@ The project provides an intelligent monitoring system that:
 
 ## 🚀 Technical Requirements
 ### ✅ What the monitoring system can do
-1. Auto-start on system boot — using systemd for maximum reliability
-2. Minute-by-minute checks — accuracy is everything
-3. HTTPS health checks to external server — security first
-4. Detailed restart logging — for subsequent analysis
-5. Monitoring server availability control — to avoid missing failures
-6. Systemd integration — modern approach to service management
-7. Operation without root rights — principle of least privilege
+1. Auto-start on system boot - using systemd for maximum reliability
+2. Minute-by-minute checks - accuracy is everything
+3. HTTPS health checks to external server - security first
+4. Detailed restart logging - for subsequent analysis
+5. Monitoring server availability control - to avoid missing failures
+6. Systemd integration - modern approach to service management
+7. Operation without root rights - principle of least privilege
+
+# RU
   
+**Test Process Monitor** - это надежное и легковесное решение для мониторинга критически важных процессов в Linux-системах. Этот проект возник из реальной потребности в автоматизированном отслеживании работоспособности сервисов и мгновенном уведомлении о проблемах.
+
+Как системный администратор, я часто сталкивался с ситуациями, когда процессы "тихо" падали или перезапускались без моего ведома.
+
+## 🎯 Что делает этот проект
+Проект представляет собой интеллектуальную систему мониторинга, которая:
+
+- 🚀 Автоматически запускается при старте системы через systemd
+- ⏰ Ежеминутно проверяет состояние целевого процесса
+- 🔔 Уведомляет о перезапусках процесса через логирование
+- 🌐 Проверяет доступность внешнего сервера мониторинга
+- 🔒 Работает без root-прав под выделенным системным пользователем
+
+## 🛡️ Безопасность как приоритет
+Special attention is given to security:
+- Выделенный пользователь monitor с минимальными правами
+- Никаких root-привилегий для скрипта
+- Защищенные логи с контролем доступа
+- HTTPS для всех внешних запросов
+
+## 🚀 Технические требования
+### ✅ Что система мониторинга умеет делать
+1. Автозапуск при старте системы - используем systemd для максимальной надежности
+2. Ежеминутная проверка - точность важнее всего
+3. HTTPS-чекапы на внешний сервер - безопасность на первом месте
+4. Детальное логирование перезапусков - для последующего анализа
+5. Контроль доступности мониторинг-сервера - чтобы не пропустить сбои
+6. Интеграция с systemd - современный подход к управлению сервисами
+7. Работа без root-прав - принцип минимальных привилегий
+
+
 </details>
