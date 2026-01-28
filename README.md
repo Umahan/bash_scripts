@@ -5,9 +5,15 @@
 ![Monitoring](https://img.shields.io/badge/Monitoring-00BFFF?style=flat&logo=prometheus&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-FF6B6B?style=flat-square&logo=security&logoColor=white)
 
+## 📋 Table of Contents
+- [Project Overview](#-project-overview)
+- [Quick Installation](#-quick-installation)
+- [Configuration Files](#%EF%B8%8F-configuration-files)
+- [Log Examples](#-log-examples)
+- [Troubleshooting](#-troubleshooting)
+
+
 ## 📖 Project Overview
-
-
 
 <details>
 <summary><b>🔍 Click to expand description </b></summary>
