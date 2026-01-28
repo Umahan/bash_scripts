@@ -1,0 +1,12 @@
+[Unit]
+Description=Monitor test process
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/monitor_test.sh
+User=monitor
+Group=monitor
+
+[Install]
+WantedBy=multi-user.target

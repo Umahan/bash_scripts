@@ -78,3 +78,56 @@ Special attention is given to security:
 
 
 </details>
+
+
+# 🚀 Quick Installation
+
+## 1. Script Placement
+```
+sudo cp monitor_test.sh /usr/local/bin/
+sudo chmod +x /usr/local/bin/monitor_test.sh
+```
+## 2. Creating a System User
+```
+sudo useradd -r -s /bin/false monitor
+```
+## 3. File Configuration
+```
+# Log-file
+sudo touch /var/log/monitoring.log
+sudo chown monitor:monitor /var/log/monitoring.log
+sudo chmod 644 /var/log/monitoring.log
+```
+```
+# PID file
+sudo touch /var/run/monitor_test.pid
+sudo chown monitor:monitor /var/run/monitor_test.pid
+sudo chmod 644 /var/run/monitor_test.pid
+```
+## 4. Systemd Activation
+```
+sudo systemctl daemon-reload
+sudo systemctl enable --now monitor_test.timer
+```
+
+# 📊 Log Examples
+```
+2024-01-15 10:30:00 - Process 'test' started or first check. PID: 1234
+2024-01-15 10:35:00 - Process 'test' was restarted. New PID: 5678
+2024-01-15 10:40:00 - Monitoring server is unavailable
+```
+
+# 🐛 Troubleshooting
+
+## Timer Status Check
+```
+sudo systemctl status monitor_test.timer
+```
+## Viewing Logs
+```
+sudo journalctl -u monitor_test.service -n 10
+```
+## Manual Script Execution
+```
+sudo -u monitor /usr/local/bin/monitor_test.sh
+```
