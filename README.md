@@ -7,6 +7,8 @@
 
 ## 📖 Project Overview
 
+# EN
+
 <details>
 <summary><b>🔍 Click to expand prerequisites setup</b></summary>
 
