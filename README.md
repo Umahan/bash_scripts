@@ -7,10 +7,12 @@
 
 ## 📖 Project Overview
 
-# EN
+
 
 <details>
 <summary><b>🔍 Click to expand prerequisites setup</b></summary>
+
+# EN
 
 **Test Process Monitor** is a reliable and lightweight solution for monitoring critical processes in Linux systems. This project was born from a real need for automated service health tracking and instant problem notification.
 
