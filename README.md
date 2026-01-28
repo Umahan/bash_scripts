@@ -111,9 +111,9 @@ sudo systemctl enable --now monitor_test.timer
 ```
 
 # ⚙️ Configuration Files
-## 📄 Service File: `/etc/systemd/system/monitor_test.service`
-## ⏰ Timer File: `/etc/systemd/system/monitor_test.timer`
-## 🐚 Main Script: `/usr/local/bin/monitor_test.sh`
+- 📄 **Service File:** `/etc/systemd/system/monitor_test.service`
+- ⏰ **Timer File:** `/etc/systemd/system/monitor_test.timer`
+- 🐚 **Main Script:** `/usr/local/bin/monitor_test.sh`
 
 # 📊 Log Examples
 ```
@@ -124,15 +124,15 @@ sudo systemctl enable --now monitor_test.timer
 
 # 🐛 Troubleshooting
 
-## Timer Status Check
+1. **Timer Status Check**
 ```
 sudo systemctl status monitor_test.timer
 ```
-## Viewing Logs
+2. **Viewing Logs**
 ```
 sudo journalctl -u monitor_test.service -n 10
 ```
-## Manual Script Execution
+3. **Manual Script Execution**
 ```
 sudo -u monitor /usr/local/bin/monitor_test.sh
 ```
