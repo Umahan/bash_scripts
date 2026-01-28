@@ -110,6 +110,11 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now monitor_test.timer
 ```
 
+# ⚙️ Configuration Files
+## 📄 Service File: `/etc/systemd/system/monitor_test.service`
+## ⏰ Timer File: `/etc/systemd/system/monitor_test.timer`
+## 🐚 Main Script: `/usr/local/bin/monitor_test.sh`
+
 # 📊 Log Examples
 ```
 2024-01-15 10:30:00 - Process 'test' started or first check. PID: 1234
