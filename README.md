@@ -10,7 +10,7 @@
 
 
 <details>
-<summary><b>🔍 Click to expand prerequisites setup</b></summary>
+<summary><b>🔍 Click to expand description </b></summary>
 
 # EN
 
